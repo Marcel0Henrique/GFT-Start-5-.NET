@@ -1,0 +1,15 @@
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/bin/Debug/net6.0/DigitalInnovationOne
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/bin/Debug/net6.0/DigitalInnovationOne.deps.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/bin/Debug/net6.0/DigitalInnovationOne.runtimeconfig.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/bin/Debug/net6.0/DigitalInnovationOne.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/bin/Debug/net6.0/DigitalInnovationOne.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.AssemblyInfo.cs
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/refint/DigitalInnovationOne.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/DigitalInnovationOne.genruntimeconfig.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/DigitalInnovationOne/obj/Debug/net6.0/ref/DigitalInnovationOne.dll
