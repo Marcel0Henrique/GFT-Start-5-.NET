@@ -1,9 +1,14 @@
-﻿internal class Program
+﻿using System;
+
+namespace EstruturaDoPrograma
 {
-    private static void Main(string[] args)
+    internal class Program
     {
-        Console.WriteLine("Marcelo");
-        Console.WriteLine("Ester");
-        Console.WriteLine("Teste");
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Marcelo");
+            Console.WriteLine("Ester");
+            Console.WriteLine("este");
+        }
     }
 }
