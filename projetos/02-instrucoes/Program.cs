@@ -79,6 +79,14 @@
             Console.WriteLine(texto);
         } while (!string.IsNullOrEmpty(texto));
     }
+    
+    static void InstrucaoFor()
+    {
+        for (var i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i);
+        }
+    }
     public static void Main(string[] args)
     {   
         string[] nome = {"Marcelo", "Henrique", "Monteiro"};
@@ -87,5 +95,6 @@
         IntrucaoSwitch(args:nome);
         InstrucaoWhile(args:nome);
         InstrucaoDo();
+        InstrucaoFor();
     }
 }
