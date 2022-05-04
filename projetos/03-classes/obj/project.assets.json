@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/03-classes/03-classes.csproj",
-      "projectName": "03-classes",
-      "projectPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/03-classes/03-classes.csproj",
+      "projectUniqueName": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/03-classes/Classes.csproj",
+      "projectName": "Classes",
+      "projectPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/03-classes/Classes.csproj",
       "packagesPath": "/home/marcelo/.nuget/packages/",
       "outputPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/projetos/03-classes/obj/",
       "projectStyle": "PackageReference",
