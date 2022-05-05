@@ -2,6 +2,8 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Bichinho animal = new Bichinho();
+        animal.nome = "teste";
+        Console.WriteLine(animal.nome);
     }
 }
