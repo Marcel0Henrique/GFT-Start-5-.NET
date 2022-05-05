@@ -8,6 +8,7 @@ namespace bichinho_virtual
         {
             Bichinho animal = new Bichinho("Tom");
             Console.WriteLine(animal.fome);
+            Console.WriteLine(animal.especie);
         }
     }
 }
