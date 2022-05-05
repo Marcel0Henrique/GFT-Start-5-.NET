@@ -1,11 +1,13 @@
 ﻿using bichinho_virtual.classes;
 
-internal class Program
+namespace bichinho_virtual
 {
-    private static void Main(string[] args)
+    internal class Program
     {
-        Bichinho animal = new Bichinho();
-        animal.nome = "teste";
-        Console.WriteLine(animal.nome);
+        private static void Main(string[] args)
+        {
+            Bichinho animal = new Bichinho("Tom");
+            Console.WriteLine(animal.fome);
+        }
     }
 }
