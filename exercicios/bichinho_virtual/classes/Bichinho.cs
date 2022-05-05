@@ -47,7 +47,7 @@ namespace bichinho_virtual.classes
 
             string[] especies = { "Gato", "Cachorro", "Passaro" };
 
-            this.especie = especies[rand.Next(0, 2)];
+            this.especie = especies[rand.Next(0, 3)];
         }
 
         //* Metodos

@@ -6,7 +6,12 @@ namespace bichinho_virtual
     {
         private static void Main(string[] args)
         {
-            Menu();
+            // Menu();
+            Fazenda teste = new Fazenda();
+            teste.NovoAnimal("Tom");
+            teste.NovoAnimal("Jerry");
+            teste.NovoAnimal("Cath");
+            teste.VerAnimais();
         }
 
         static void Menu()
