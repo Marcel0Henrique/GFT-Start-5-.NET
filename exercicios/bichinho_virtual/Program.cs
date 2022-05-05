@@ -5,12 +5,26 @@ namespace bichinho_virtual
     internal class Program
     {
         private static void Main(string[] args)
-        {   
-            Bichinho animal = new Bichinho("Tom");
-            Console.WriteLine(animal.fome);
-            Console.WriteLine(animal.especie);
-            animal.Comer();
-            Console.WriteLine(animal.fome);
+        {
+            Menu();
+        }
+
+        static void Menu()
+        {
+            while (true)
+            {
+                int? escolha;
+                Console.WriteLine("\n***Fazenda de Bichinhos***\n");
+                Console.WriteLine("1 - Adicionar animal\n2 - Ver animais\n3 - Colocar comida\n4 - Brincar com os animais\n5 - Apagar a luz\n");
+                var s = Console.ReadLine();
+                if (s != null)
+                {   
+                    Console.Write("Digite uma opção: ");
+                    escolha = int.Parse(s);
+                    
+                    break;
+                } 
+            }
         }
     }
 }
