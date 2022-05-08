@@ -5,8 +5,22 @@ internal class Program
     private static void Main(string[] args)
     {
         Sistema db = new Sistema();
+        
         db.Connection();
-        db.Login(email:"admin@suporte.com",senha:"admin");
-        db.Cadastrar("Marcelo", "Henrique", "teste@gmail.com","123");
+
+        while (true)
+        {
+            Console.WriteLine("*** Login ***");
+
+            Console.Write("Email: ");
+            string? email = Console.ReadLine();
+            Console.Write("Senha: ");
+            string? senha = Console.ReadLine();
+
+            if (db.Login(email,senha))
+            {
+                
+            }
+        }
     }
 }

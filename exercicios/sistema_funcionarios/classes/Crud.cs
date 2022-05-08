@@ -57,7 +57,7 @@ namespace sistema_funcionarios.classes
 
         }
 
-        public bool Login(String email, String senha)
+        public bool Login(string? email, string? senha)
         {
 
             sql_conn.Open();
