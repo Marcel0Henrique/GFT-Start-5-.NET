@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/exercicios/sistema_funcionarios/sistema_funcionarios.csproj": {}
+  },
+  "projects": {
+    "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/exercicios/sistema_funcionarios/sistema_funcionarios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/exercicios/sistema_funcionarios/sistema_funcionarios.csproj",
+        "projectName": "sistema_funcionarios",
+        "projectPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/exercicios/sistema_funcionarios/sistema_funcionarios.csproj",
+        "packagesPath": "/home/marcelo/.nuget/packages/",
+        "outputPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/exercicios/sistema_funcionarios/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marcelo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/162/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

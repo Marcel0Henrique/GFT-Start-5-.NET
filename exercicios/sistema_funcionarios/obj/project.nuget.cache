@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JlOtVYK5iaJGkd7kN1RfM5uAA1GtG2SpvONx1VPLLBOIJsttoLJ6/SMBiPpo+gxRePv5+3UufftZyrPGSGV51w==",
+  "success": true,
+  "projectFilePath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/exercicios/sistema_funcionarios/sistema_funcionarios.csproj",
+  "expectedPackageFiles": [
+    "/home/marcelo/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}
