@@ -38,9 +38,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "SQLite": {
+            "System.Data.SQLite.Core": {
               "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[1.0.115.5, )"
             }
           },
           "imports": [
