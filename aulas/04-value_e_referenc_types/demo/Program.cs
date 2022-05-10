@@ -1,8 +1,16 @@
 ﻿using static System.Console;
-internal class Program
+public class Program
 {
     private static void Main(string[] args)
     {
-        WriteLine("Hello, World!");
+        int a = 2;
+        a = Adicionar20(a);
+        
+        WriteLine($"valor de A: {a}");
+    }
+
+    static int Adicionar20(int x)
+    {
+        return x + 20;
     }
 }
