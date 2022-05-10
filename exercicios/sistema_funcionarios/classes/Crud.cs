@@ -34,7 +34,7 @@ namespace sistema_funcionarios.classes
                 FileInfo file = new FileInfo(@"funcionarios.db");
                 if (file.Exists)
                 {
-                    Console.WriteLine("Banco de dados já criado");
+                    
                 }
                 else
                 {
@@ -57,26 +57,56 @@ namespace sistema_funcionarios.classes
 
         }
 
+        public void Listar()
+        {
+            try
+            {
+                sql_conn.Open();
+                SQLiteDataReader? reader;
+                SQLiteCommand cmd = sql_conn.CreateCommand();
+                cmd.CommandText = "SELECT count(*) as linhas FROM funcionarios";
+                reader = cmd.ExecuteReader();
+
+                long linhas = reader.GetInt64(0);
+                Console.WriteLine(linhas);
+
+                
+                
+            }
+            catch (System.Exception ex)
+            {
+                 Console.WriteLine(ex);
+            }
+        }
+
         public bool Login(string? email, string? senha)
         {
 
-            sql_conn.Open();
-            SQLiteDataReader reader;
-            SQLiteCommand cmd = sql_conn.CreateCommand();
-            cmd.CommandText = $"SELECT * FROM funcionarios WHERE email = '{email}' AND senha = '{senha}'";
-
-            reader = cmd.ExecuteReader();
-            reader.Read();
-
-            if (reader.GetString(3) != "")
+            try
             {
-                Console.WriteLine();
-                this.nome = email;
-                this.admin = reader.GetInt32(5);
-                return true;
+                sql_conn.Open();
+                SQLiteDataReader reader;
+                SQLiteCommand cmd = sql_conn.CreateCommand();
+                cmd.CommandText = $"SELECT * FROM funcionarios WHERE email = '{email}' AND senha = '{senha}'";
+
+                reader = cmd.ExecuteReader();
+                reader.Read();
+
+                if (reader.GetString(3) != "")
+                {
+                    Console.WriteLine();
+                    this.nome = email;
+                    this.admin = reader.GetInt32(5);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch (System.Exception ex)
             {
+                
                 return false;
             }
 
