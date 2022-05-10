@@ -2,7 +2,9 @@
 internal class Program
 {
     private static void Main(string[] args)
-    {
-        WriteLine("Hello, World!");
+    {   
+        Pessoa p1 = new Pessoa("Marcos");
+
+        WriteLine(p1.Nome);
     }
 }
