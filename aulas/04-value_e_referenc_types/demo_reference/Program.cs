@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using demo_reference.classes;
+using static System.Console;
 internal class Program
 {
     private static void Main(string[] args)
