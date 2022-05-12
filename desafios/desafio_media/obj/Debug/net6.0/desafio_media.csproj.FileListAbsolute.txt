@@ -1,0 +1,15 @@
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/bin/Debug/net6.0/desafio_media
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/bin/Debug/net6.0/desafio_media.deps.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/bin/Debug/net6.0/desafio_media.runtimeconfig.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/bin/Debug/net6.0/desafio_media.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/bin/Debug/net6.0/desafio_media.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.AssemblyInfo.cs
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/refint/desafio_media.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/desafio_media.genruntimeconfig.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/desafio_media/obj/Debug/net6.0/ref/desafio_media.dll
