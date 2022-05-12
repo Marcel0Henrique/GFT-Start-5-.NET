@@ -10,7 +10,7 @@ internal class Program
         //? Imprimindo a lista de nomes
         WriteLine($"***Lista de nomes***\n{string.Join(", ", nomes)}");
 
-        int index = LocalizaNome(nomes, "Ester");
+        int? index = LocalizaNome(nomes, "Ester");
 
         AlterarNome(nomes, index, "Caio");
 
@@ -18,7 +18,7 @@ internal class Program
 
     }
 
-    static int LocalizaNome(string[] lista, string nome)
+    static int? LocalizaNome(string[] lista, string nome)
     {
         for (int i = 0; i <= lista.Length; i++)
         {
@@ -28,14 +28,18 @@ internal class Program
             }
         }
 
-        return -1;
+        return null;
     }
 
-    static void AlterarNome(string[] lista, int index, string nome)
+    static void AlterarNome(string?[] lista, int? index, string nome)
     {
         try
-        {
-            lista[index] = nome;
+        {   
+            if (index != null)
+            {
+                lista[(int)index] = nome;
+            }
+            
         }
         catch (System.Exception ex)
         {
