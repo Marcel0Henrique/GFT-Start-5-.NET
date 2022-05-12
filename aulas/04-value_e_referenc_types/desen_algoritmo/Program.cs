@@ -8,7 +8,14 @@ internal class Program
         int num = int.Parse(ReadLine());
 
         int idxEncontrado = EncontrarNumero(numeros, num);
-        WriteLine($"Posição do numero encontrado: {idxEncontrado}");
+        if (idxEncontrado >= 0)
+        {
+            WriteLine($"Posição do numero encontrado: {idxEncontrado}");
+        }
+        else
+        {
+            WriteLine($"O número não foi encontrado");
+        }
         
     }
 
