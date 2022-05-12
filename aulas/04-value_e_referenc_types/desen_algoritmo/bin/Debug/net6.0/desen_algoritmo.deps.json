@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "desen_algoritmo/1.0.0": {
+        "runtime": {
+          "desen_algoritmo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "desen_algoritmo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
