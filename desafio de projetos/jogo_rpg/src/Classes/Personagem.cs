@@ -1,6 +1,7 @@
 namespace jogo_rpg.src.Classes
-{
-    public class Personagem
+{   
+    //* uma classe abstract não pode ser instanciada, apenas herdada
+    public abstract class Personagem
     {
         public Personagem(string name, int level,string classe)
         {
