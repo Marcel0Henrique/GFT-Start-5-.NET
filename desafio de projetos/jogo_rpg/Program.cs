@@ -5,6 +5,7 @@ public class Program
     private static void Main(string[] args)
     {
         Personagem arus = new Personagem("Arus","Knight");
+        Console.WriteLine(arus.ToString());
         
     }
 }
