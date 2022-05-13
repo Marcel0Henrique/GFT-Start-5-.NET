@@ -11,7 +11,7 @@ public class Program
         Console.WriteLine(arus.ToString());
         Console.WriteLine(arus.Attack());
         Console.WriteLine(janie.Attack());
-        Console.WriteLine(janie.Attack(3));
+        Console.WriteLine(janie.Attack(7));
         
     }
 }

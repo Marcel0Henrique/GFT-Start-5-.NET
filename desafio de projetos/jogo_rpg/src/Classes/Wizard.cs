@@ -13,7 +13,15 @@ namespace jogo_rpg.src.Classes
 
         public string Attack(int bonus)
         {
-            return $"{this.Name} lançou magia com bonus de attack {bonus}";
+            if (bonus > 6)
+            {
+                return $"{this.Name} lançou uma magia super efetiva com bonus de attack de {bonus}";
+            }else
+            {
+                return $"{this.Name} lançou uma magia fraca com bonus de attack de {bonus}";
+            }
+
+            
         }
     }
 }
