@@ -6,7 +6,7 @@ public class Program
     {
         Personagem arus = new Personagem("Arus","Knight");
         Console.WriteLine(arus);
-        Console.WriteLine(arus.ToString);
+        Console.WriteLine(arus.ToString());
         
     }
 }
