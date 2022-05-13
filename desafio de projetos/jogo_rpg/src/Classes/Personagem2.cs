@@ -8,15 +8,27 @@ namespace jogo_rpg.src.Classes
             this.Level = level;
             this.Hp = hp;
             this.Mp = mp;
-
+            this.Classe = Classes.Warrior;
         }
-        
+
         public string Name { get; set; }
 
         public int Level { get; set; }
         public int Hp { get; set; }
         public int Mp { get; set; }
+        
+        Classes Classe;
+        
 
+        enum Classes
+        {
+            Warrior,
+            Mage,
+            Thief,
+            
+        };
+
+        
         
 
     }
