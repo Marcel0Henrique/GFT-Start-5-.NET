@@ -8,6 +8,7 @@ public class Program
         Personagem inimigo = new Personagem("Boss",20,"Paladin");
         Console.WriteLine(arus);
         Console.WriteLine(arus.ToString());
+        Console.WriteLine(arus.Attack());
         
     }
 }
