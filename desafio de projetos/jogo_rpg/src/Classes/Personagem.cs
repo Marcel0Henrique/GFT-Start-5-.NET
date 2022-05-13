@@ -17,5 +17,10 @@ namespace jogo_rpg.src.Classes
         {
             return this.Name + ", " + this.Level + ", " + this.Classe;
         }
+
+        public string Attack()
+        {
+            return $"{this.Name} atacou com sua espada!";
+        }
     }
 }
