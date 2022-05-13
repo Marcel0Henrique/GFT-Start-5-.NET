@@ -2,10 +2,10 @@ namespace jogo_rpg.src.Classes
 {
     public class Personagem
     {
-        public Personagem(string name, string classe)
+        public Personagem(string name, int level,string classe)
         {
             this.Name = name;
-            this.Level = 1;
+            this.Level = level;
             this.Classe = classe;
         }
         public string Name { get; set; }
