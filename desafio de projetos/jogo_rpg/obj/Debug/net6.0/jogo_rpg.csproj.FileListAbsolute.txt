@@ -1,0 +1,15 @@
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/bin/Debug/net6.0/jogo_rpg
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/bin/Debug/net6.0/jogo_rpg.deps.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/bin/Debug/net6.0/jogo_rpg.runtimeconfig.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/bin/Debug/net6.0/jogo_rpg.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/bin/Debug/net6.0/jogo_rpg.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.AssemblyInfo.cs
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/refint/jogo_rpg.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/jogo_rpg.genruntimeconfig.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/jogo_rpg/obj/Debug/net6.0/ref/jogo_rpg.dll

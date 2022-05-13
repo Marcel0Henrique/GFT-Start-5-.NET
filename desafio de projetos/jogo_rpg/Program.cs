@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using jogo_rpg.src.Classes;
+
+public class Program
+{
+    private static void Main(string[] args)
+    {
+        Personagem arus = new Personagem("Arus","Knight");
+        
+    }
+}
