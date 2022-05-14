@@ -15,33 +15,10 @@ namespace jogo_rpg.src.Classes
 
         public int MagicAttack(Spells magic)
         {
-            if (this.Classe == Classes.Warrior)
-            {
+            int IntelligenceWeight = 3;
+            int Attack = (((int)magic * IntelligenceWeight) + (Intelligence * IntelligenceWeight)) / (IntelligenceWeight * 2);
 
-                int IntelligenceWeight = 3;
-                int Attack = (((int)magic * IntelligenceWeight) + (Intelligence * IntelligenceWeight)) / (IntelligenceWeight * 2);
-
-                return Attack;
-
-            }
-            else if (this.Classe == Classes.Thief)
-            {
-
-                int IntelligenceWeight = 3;
-                int Attack = (((int)magic * IntelligenceWeight) + (Intelligence * IntelligenceWeight)) / (IntelligenceWeight * 2);
-
-                return Attack;
-
-            }
-            else
-            {
-
-                int IntelligenceWeight = 3;
-                int Attack = (((int)magic * IntelligenceWeight) + (Intelligence * IntelligenceWeight)) / (IntelligenceWeight * 2);
-
-                return Attack;
-            }
-
+            return Attack;
         }
     }
 }

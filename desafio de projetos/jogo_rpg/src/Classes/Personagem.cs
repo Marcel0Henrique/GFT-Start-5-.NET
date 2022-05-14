@@ -73,5 +73,15 @@ namespace jogo_rpg.src.Classes
             }
         }
         
+        public void Rest()
+        {
+            if (this.Hp > 0 && this.Hp <= 90)
+            {
+                this.Hp += 10;
+            } if ( this.Mp > 0 && this.Mp <= 15)
+            {
+                this.Mp += 5;
+            }
+        }
     }
 }
