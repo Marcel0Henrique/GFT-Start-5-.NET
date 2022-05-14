@@ -5,10 +5,10 @@ public class Program
     private static void Main(string[] args)
     {
        
-       Warrior jin = new Warrior("jin");
-       Wizard merlin = new Wizard("Merlin");
+       Game game = new Game();
+       game.Init();
        
-        
+
 
         
     }
