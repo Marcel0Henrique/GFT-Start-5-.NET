@@ -89,7 +89,7 @@ namespace jogo_rpg.src.Classes
                 switch (input)
                 {
                     case 1:
-                        Battle(player);
+                        Battle(player, ref game);
                         break;
                     case 2:
                         player.Rest();
@@ -104,103 +104,123 @@ namespace jogo_rpg.src.Classes
             }
         }
 
-        static void Battle(Personagem player)
+        static void Battle(Personagem player, ref bool game)
         {
             Warrior globin = new Warrior("Globin");
 
             while (true)
             {
-                if (player.Classe == Personagem.Classes.Warrior || player.Classe == Personagem.Classes.Thief)
+
+                if (player.Hp > 0)
                 {
-                    int input;
-                    WriteLine("\n***Batalha***\n");
-
-                    WriteLine("\n***************************\n");
-
-                    WriteLine($"Jogador: {player.Name}\n");
-                    WriteLine($"Vida: {player.Hp}\n");
-
-                    WriteLine("\n***************************\n");
-
-                    WriteLine($"Inimigo: {globin.Name}\n");
-                    WriteLine($"Vida: {globin.Hp}\n");
-                    WriteLine("1 - Atacar\n2 - Fugir\n");
-
-                    Write("Digite sua escolha: ");
-                    input = Convert.ToInt32(ReadLine());
-
-                    if (input == 1)
+                    if (player.Classe == Personagem.Classes.Warrior || player.Classe == Personagem.Classes.Thief)
                     {
-                        Attack(player, globin);
-                    }
-                    else if (input == 2)
-                    {
-                        WriteLine($"--- {player.Name} fugiu da batalha! ---");
-                        break;
+                        int input;
+                        WriteLine("\n***Batalha***\n");
+
+                        WriteLine("\n***************************\n");
+
+                        WriteLine($"Jogador: {player.Name}\n");
+                        WriteLine($"Vida: {player.Hp}\n");
+
+                        WriteLine("\n***************************\n");
+
+                        WriteLine($"Inimigo: {globin.Name}\n");
+                        WriteLine($"Vida: {globin.Hp}\n");
+                        WriteLine("1 - Atacar\n2 - Fugir\n");
+
+                        Write("Digite sua escolha: ");
+                        input = Convert.ToInt32(ReadLine());
+
+                        if (input == 1)
+                        {
+                            Attack(player, globin);
+                        }
+                        else if (input == 2)
+                        {
+                            WriteLine($"--- {player.Name} fugiu da batalha! ---");
+                            break;
+                        }
+                        else
+                        {
+                            WriteLine($"\n--- OPÇÃO INCORRETA! ---\n");
+                        }
                     }
                     else
                     {
-                        WriteLine($"\n--- OPÇÃO INCORRETA! ---\n");
+                        int input;
+                        WriteLine("\n***Batalha***\n");
+
+                        WriteLine("\n***************************");
+
+                        WriteLine($"Jogador: {player.Name}");
+                        WriteLine($"Vida: {player.Hp}");
+
+                        WriteLine("***************************");
+
+                        WriteLine($"Inimigo: {globin.Name}");
+                        WriteLine($"Vida: {globin.Hp}");
+                        WriteLine("***************************\n");
+                        WriteLine("1 - Atacar\n2 - Magia\n3 - Fugir\n");
+
+                        Write("Digite sua escolha: ");
+                        input = Convert.ToInt32(ReadLine());
+
+                        if (input == 1)
+                        {
+                            Attack(player, globin);
+                        }
+                        else if (input == 2)
+                        {
+                            WriteLine("\n***Batalha***\n");
+                            WriteLine("1 - Bola de Fogo\n2 - Lamina de Vento\n3 - Relampago\n");
+
+                            Write("Digite sua escolha: ");
+                            int inputMagic = Convert.ToInt32(ReadLine());
+
+                            if (inputMagic == 1)
+                            {
+                                Wizard playerMagic = (Wizard)player;
+                                playerMagic.Magic = Wizard.Spells.FireBall;
+                            }
+                            else if (inputMagic == 2)
+                            {
+                                Wizard playerMagic = (Wizard)player;
+                                playerMagic.Magic = Wizard.Spells.Windblade;
+                            }
+                            else if (inputMagic == 3)
+                            {
+                                Wizard playerMagic = (Wizard)player;
+                                playerMagic.Magic = Wizard.Spells.Lightning;
+                            }
+
+                            Attack(player, globin, true);
+                        }
+                        else if (input == 3)
+                        {
+                            WriteLine($"\n--- {player.Name} fugiu da batalha! ---\n");
+                            break;
+                        }
+                        else
+                        {
+                            WriteLine($"\n--- OPÇÃO INCORRETA! ---\n");
+                        }
                     }
+                }
+                else if (player.Hp <= 0 && game == true)
+                {
+                    game = false;
+                    break;
                 }
                 else
                 {
-                    int input;
-                    WriteLine("\n***Batalha***\n");
-
-                    WriteLine("\n***************************\n");
-
-                    WriteLine($"Jogador: {player.Name}\n");
-                    WriteLine($"Vida: {player.Hp}\n");
-
-                    WriteLine("\n***************************\n");
-
-                    WriteLine($"Inimigo: {globin.Name}\n");
-                    WriteLine($"Vida: {globin.Hp}\n");
-                    WriteLine("1 - Atacar\n2 - Magia\n3 - Fugir\n");
-
-                    Write("Digite sua escolha: ");
-                    input = Convert.ToInt32(ReadLine());
-
-                    if (input == 1)
-                    {
-                        Attack(player, globin);
-                    }
-                    else if (input == 2)
-                    {
-                        WriteLine("\n***Batalha***\n");
-                        WriteLine("1 - Bola de Fogo\n2 - Lamina de Vento\n3 - Relampago\n");
-
-                        Write("Digite sua escolha: ");
-                        int inputMagic = Convert.ToInt32(ReadLine());
-
-                        if (inputMagic == 1)
-                        {
-                            Wizard playerMagic = (Wizard)player;
-                            playerMagic.Magic = Wizard.Spells.FireBall;
-                        } else if (inputMagic == 2)
-                        {
-                            Wizard playerMagic = (Wizard)player;
-                            playerMagic.Magic = Wizard.Spells.Windblade;
-                        } else if (inputMagic == 3)
-                        {
-                            Wizard playerMagic = (Wizard)player;
-                            playerMagic.Magic = Wizard.Spells.Lightning;
-                        }
-
-                        Attack(player, globin, true);
-                    }
-                    else if (input == 3)
-                    {
-                        WriteLine($"\n--- {player.Name} fugiu da batalha! ---\n");
-                        break;
-                    }
-                    else
-                    {
-                        WriteLine($"\n--- OPÇÃO INCORRETA! ---\n");
-                    }
+                    break;
                 }
+
+
+
             }
+
 
 
 
@@ -212,17 +232,17 @@ namespace jogo_rpg.src.Classes
 
             if (!magic)
             {
-                WriteLine($"---{player.Name} atacou {enemy.Name} e causou {player.PhysicalAttack()} de dano---");
+                WriteLine($"\n--- {player.Name} atacou {enemy.Name} e causou {player.PhysicalAttack()} de dano ---");
                 enemy.Hp -= player.PhysicalAttack();
-                WriteLine($"---{enemy.Name} revidou causando {enemy.PhysicalAttack()} de dano á {player.Name}---");
+                WriteLine($"--- {enemy.Name} revidou causando {enemy.PhysicalAttack()} de dano á {player.Name} ---");
                 player.Hp -= enemy.PhysicalAttack();
             }
             else
             {
                 Wizard playerMagic = (Wizard)player;
-                WriteLine($"---{playerMagic.Name} atacou {enemy.Name} e causou {playerMagic.MagicAttack(playerMagic.Magic)} de dano---");
+                WriteLine($"\n ---{playerMagic.Name} atacou {enemy.Name} e causou {playerMagic.MagicAttack(playerMagic.Magic)} de dano ---");
                 enemy.Hp -= playerMagic.MagicAttack(playerMagic.Magic);
-                WriteLine($"---{enemy.Name} revidou causando {enemy.PhysicalAttack()} de dano á {playerMagic.Name}---");
+                WriteLine($"\n ---{enemy.Name} revidou causando {enemy.PhysicalAttack()} de dano á {playerMagic.Name} ---");
                 playerMagic.Hp -= enemy.PhysicalAttack();
             }
 
