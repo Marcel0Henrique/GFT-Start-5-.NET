@@ -1,6 +1,6 @@
 namespace jogo_rpg.src.Classes
 {
-    public class Wizard : Personagem
+    public class Wizard : Personagem2
     {
         public Wizard(string name, int level, string classe) : base(name, level, classe)
         {

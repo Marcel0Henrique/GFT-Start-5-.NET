@@ -1,8 +1,8 @@
 namespace jogo_rpg.src.Classes
 {
-    public class Personagem2
+    public class Personagem
     {
-        public Personagem2(string name, int level = 1, int hp = 100, int mp = 20, int strength = 10, int agility = 5, int intelligence = 5, int Constitution = 10 )
+        public Personagem(string name, int level = 1, int hp = 100, int mp = 20, int strength = 10, int agility = 5, int intelligence = 5, int Constitution = 10 )
         {
             this.Name = name;
             this.Level = level;
@@ -37,10 +37,13 @@ namespace jogo_rpg.src.Classes
         };
 
         
-        public virtual int PhysicalAttack(Personagem2 inimigo)
+        public virtual int PhysicalAttack(Personagem inimigo)
         {
-            if (Classe == Classes.Warrior)
+            if (this.Classe == Classes.Warrior)
             {
+                int StrengthWeight = 3;
+                int AgilityWeight = 2;
+                int intelligenceWeight = 1;
                 //* Usar media poderada para calcular o ataque
                 return 2;
             }
