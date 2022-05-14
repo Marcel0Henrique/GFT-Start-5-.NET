@@ -1,0 +1,15 @@
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/bin/Debug/net6.0/volume_esfera
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/bin/Debug/net6.0/volume_esfera.deps.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/bin/Debug/net6.0/volume_esfera.runtimeconfig.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/bin/Debug/net6.0/volume_esfera.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/bin/Debug/net6.0/volume_esfera.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.AssemblyInfo.cs
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/refint/volume_esfera.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/volume_esfera.genruntimeconfig.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/volume_esfera/obj/Debug/net6.0/ref/volume_esfera.dll

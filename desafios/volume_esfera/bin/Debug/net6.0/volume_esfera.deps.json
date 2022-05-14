@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "volume_esfera/1.0.0": {
+        "runtime": {
+          "volume_esfera.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "volume_esfera/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
