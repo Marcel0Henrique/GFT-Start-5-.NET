@@ -1,0 +1,15 @@
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/bin/Debug/net6.0/colecoes
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/bin/Debug/net6.0/colecoes.deps.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/bin/Debug/net6.0/colecoes.runtimeconfig.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/bin/Debug/net6.0/colecoes.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/bin/Debug/net6.0/colecoes.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.AssemblyInfo.cs
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/refint/colecoes.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/colecoes.genruntimeconfig.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/ExemploColecoes/colecoes/obj/Debug/net6.0/ref/colecoes.dll
