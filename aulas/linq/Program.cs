@@ -5,10 +5,16 @@
         int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
 
         //* Sintaxe de consulta
-        var numerosPares =
+        var numerosParesQuery =
             from num in numeros
             where num % 2 == 0
             orderby num
             select num;
+
+        //* Sintaxe de metodos
+        var numerosParesMetodos = numeros.Where(num => num % 2 ==0).OrderBy(num => num).ToList();
+
+        Console.WriteLine($"\nNumeros Pares Query: {String.Join(", ", numerosParesQuery)}");
+        Console.WriteLine($"Numero Pares Métodos: {String.Join(", ", numerosParesMetodos)}");
     }
 }
