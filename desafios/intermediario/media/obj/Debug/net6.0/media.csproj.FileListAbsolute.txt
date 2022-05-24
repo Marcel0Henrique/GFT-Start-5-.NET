@@ -1,0 +1,15 @@
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/bin/Debug/net6.0/media
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/bin/Debug/net6.0/media.deps.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/bin/Debug/net6.0/media.runtimeconfig.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/bin/Debug/net6.0/media.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/bin/Debug/net6.0/media.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.AssemblyInfo.cs
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/refint/media.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/media.genruntimeconfig.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafios/intermediario/media/obj/Debug/net6.0/ref/media.dll
