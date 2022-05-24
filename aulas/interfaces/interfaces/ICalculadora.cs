@@ -1,17 +1,11 @@
-namespace interfaces.src.classes
+namespace interfaces
 {
     public interface ICalculadora
     {
-         void somar()
+         public void Somar()
          {}
 
-         void diminuir()
-         {}
-
-         void multiplicar()
-         {}
-
-         void dividir()
+         public void Diminuir()
          {}
     }
 }
