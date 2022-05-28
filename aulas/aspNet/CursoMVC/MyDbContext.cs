@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using CursoMVC.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+
 
 namespace CursoMVC
 {
     public partial class MyDbContext : DbContext
     {
+        public DbSet<Categoria>? Categorias{get;set;}
         public MyDbContext()
         {
         }
