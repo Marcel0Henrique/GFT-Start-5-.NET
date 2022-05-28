@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/asp net/CursoMVC/CursoMVC.csproj": {}
+    "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/aspNet/CursoMVC/CursoMVC.csproj": {}
   },
   "projects": {
-    "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/asp net/CursoMVC/CursoMVC.csproj": {
+    "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/aspNet/CursoMVC/CursoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/asp net/CursoMVC/CursoMVC.csproj",
+        "projectUniqueName": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/aspNet/CursoMVC/CursoMVC.csproj",
         "projectName": "CursoMVC",
-        "projectPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/asp net/CursoMVC/CursoMVC.csproj",
+        "projectPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/aspNet/CursoMVC/CursoMVC.csproj",
         "packagesPath": "/home/marcelo/.nuget/packages/",
-        "outputPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/asp net/CursoMVC/obj/",
+        "outputPath": "/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/aulas/aspNet/CursoMVC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcelo/.nuget/NuGet/NuGet.Config"
@@ -37,16 +37,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[6.0.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
