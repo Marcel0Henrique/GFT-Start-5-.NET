@@ -12,6 +12,7 @@ namespace CadastroDeSeries.Classes
         public string? Descricao { get; set; }
         
         public int Ano { get; set; }
+        public bool Excluido { get; set; }
 
         //* Construtor  
         public Series(int id,Genero genero, string titulo, string? descricao, int ano)
@@ -21,6 +22,7 @@ namespace CadastroDeSeries.Classes
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
         }
 
         public override bool Equals(object? obj)
@@ -50,6 +52,10 @@ namespace CadastroDeSeries.Classes
         public int RetornarId( )
         {
             return this.Id;
+        }
+        public void Excluir()
+        {
+            this.Excluido = true;
         }
     }
 }
