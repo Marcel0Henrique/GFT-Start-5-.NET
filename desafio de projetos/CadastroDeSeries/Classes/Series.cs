@@ -14,7 +14,7 @@ namespace CadastroDeSeries.Classes
         public int Ano { get; set; }
 
         //* Construtor  
-        public Series(int id,Genero genero, string? titulo, string? descricao, int ano)
+        public Series(int id,Genero genero, string titulo, string? descricao, int ano)
         {
             this.Id = id;
             this.Genero = genero;
