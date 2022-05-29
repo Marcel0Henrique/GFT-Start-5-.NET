@@ -1,0 +1,15 @@
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/bin/Debug/net6.0/CadastroDeSeries
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/bin/Debug/net6.0/CadastroDeSeries.deps.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/bin/Debug/net6.0/CadastroDeSeries.runtimeconfig.json
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/bin/Debug/net6.0/CadastroDeSeries.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/bin/Debug/net6.0/CadastroDeSeries.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.AssemblyInfo.cs
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/refint/CadastroDeSeries.dll
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.pdb
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/CadastroDeSeries.genruntimeconfig.cache
+/home/marcelo/Documentos/GitHub/GFT-Start-5-.NET/desafio de projetos/CadastroDeSeries/obj/Debug/net6.0/ref/CadastroDeSeries.dll

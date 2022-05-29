@@ -3,19 +3,19 @@ namespace CadastroDeSeries.Classes
 {
     public class Series : EntidadeBase
     {
-        
+
 
         //* Atributos
-        private Genero Genero{get;set;}
+        private Genero Genero { get; set; }
         public string Titulo { get; set; }
-        
+
         public string? Descricao { get; set; }
-        
+
         public int Ano { get; set; }
         public bool Excluido { get; set; }
 
         //* Construtor  
-        public Series(int id,Genero genero, string titulo, string? descricao, int ano)
+        public Series(int id, Genero genero, string titulo, string? descricao, int ano)
         {
             this.Id = id;
             this.Genero = genero;
@@ -40,22 +40,32 @@ namespace CadastroDeSeries.Classes
             return HashCode.Combine(Id, Genero, Titulo, Descricao, Ano);
         }
 
-        public override string? ToString()
+        public override string ToString()
         {
-            return base.ToString();
+            string retorno = "";
+            retorno += "Gênero: " + this.Genero + Environment.NewLine;
+            retorno += "Titulo: " + this.Titulo + Environment.NewLine;
+            retorno += "Descrição: " + this.Descricao + Environment.NewLine;
+            retorno += "Ano de Início: " + this.Ano + Environment.NewLine;
+            retorno += "Excluido: " + this.Excluido;
+            return retorno;
         }
 
         public string RetornarTitulo()
         {
             return this.Titulo;
         }
-        public int RetornarId( )
+        public int RetornarId()
         {
             return this.Id;
         }
         public void Excluir()
         {
             this.Excluido = true;
+        }
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
     }
 }
